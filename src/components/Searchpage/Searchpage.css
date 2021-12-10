@@ -1,0 +1,47 @@
+.headtextsearch{
+    font: 100 35px Inter;
+    color: var(--main-text-colors);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.formsearchchange{
+    text-align: center;
+    margin: 40px;
+}
+
+.searchfieldinput{
+    width: 200px;
+    padding: 4px 15px;
+    font: 100 15px Inter;
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 50px;
+}
+
+.searchpagebutton{
+    padding: 4px 20px;
+    color: white;
+    font: 100 15px Inter;
+    border: none;
+    border-radius: 50px;
+    background-color: #fd2626;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.tablesearchpage{
+    text-align: center;
+    display:block;
+    align-items: center;
+    margin-left: 620px;
+}
+
+.tablenamecarname{
+    color: var(--main-text-colors);
+    font: 100 30px Inter;
+    margin-bottom: 10px;
+}
+
+tr{
+    cursor: pointer;
+}

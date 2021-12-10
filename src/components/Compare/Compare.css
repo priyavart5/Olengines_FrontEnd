@@ -1,0 +1,92 @@
+.content-page{
+    margin: 1% 10%;
+}
+
+.homepage{
+    color: var(--main-text-color);
+    text-decoration: none;
+    font: 100 11px Inter;
+}
+
+.homepagespan{
+    color: var(--sub-text-color);
+}
+
+
+.comparefields{
+    margin: 30px 0;
+    margin-left: auto;
+    margin-right: auto ;
+    width: 70%;
+    background-color: #F8F8F8;
+    border-radius: 100px;
+}
+
+.compareform{
+    display: flex;
+    height: 60px;
+}
+
+.selectcar01div, .selectcar02div{
+    margin: 10px 20px;
+}
+
+.selectcar01, .selectcar02{
+    width: 250px;
+    height: 40px;
+    border-radius: 100px;
+    border: none;
+    color: #000;
+    padding: 0 20px;
+    font: 100 13px Inter;
+}
+
+.compare-button{
+    height: 40px;
+    width: 100px;
+    border-radius: 100px;
+    background-color: var(--main-text-color);
+    border: none;
+    font: 100 13px Inter;
+    color: #fff;
+    margin: 10px 25px;
+    cursor: pointer;
+}
+
+.tables{
+    display: flex;
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto ;
+}
+
+.onlynames, .car01table, .car02table{
+    width: 33%;
+    padding: 20px;
+    height: 60vh;
+}
+
+.onlynames{
+    background-color: rgb(243, 243, 243) ;
+    padding-left: 40px;
+    border-radius: 20px;
+}
+
+.carname, .carnametable{
+    font: 100 25px Inter;
+    color: #000;
+}
+
+table{
+    border: 1px solid rgb(243, 243, 243);
+    margin: 10px;
+    border-radius: 20px;
+}
+
+tr{
+    border: 1px solid rgb(243, 243, 243);
+    border-radius: 20px;
+    font: 100 15px Inter;
+    color: var(--sub-text-color);
+}

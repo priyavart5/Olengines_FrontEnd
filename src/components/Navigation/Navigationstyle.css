@@ -1,0 +1,186 @@
+.navbar{
+    height: 5vh;
+    box-shadow: 0 0 1px 0;
+    box-shadow: #000;
+    display: flex;
+    padding: 12px 30px;
+    align-items: center;
+}
+
+.navbarhr{
+    color: var(--sub-text-color);
+    rotate: 90deg;
+    width: 30px;
+}
+
+.text-logo{
+    font: bolder 22px Sarabun;
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+
+.ios-app{
+    padding: 0 0 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.text1{
+    font: 900 13px Inter;
+    padding-left: 10px;
+    letter-spacing: -1px;
+}
+
+.text2{
+    font: 500 12px Inter;
+    padding-left: 10px;
+    color: var(--sub-text-color);
+}
+
+.downloadnow{
+    font: 900 13px Inter;
+    text-decoration: none;
+    color: var(--main-text-color);
+    padding-left: 10px;
+    letter-spacing: -1px;
+}
+
+.downloadnow:hover{
+    color: #f70000;
+}
+
+nav{
+    padding: 0 6px 0 0;
+    flex: 1;
+    text-align: right;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block; 
+    text-align: right;
+}
+
+.latest, .upcoming, .trending, .search011{
+    padding: 0 8px;
+    text-decoration: none;
+    color: var(--sub-text-color);
+    align-items: center;
+    text-align: right;
+    font: 100 14px Inter ;
+}
+
+.search011{
+    font: 100 15px Inter;
+    border-radius: 4px;
+    padding: 7px 20px;
+    margin: 0 0 0 10px;
+}
+
+.search011:hover{
+color: #000;
+}
+
+.latest:hover , .upcoming:hover, .trending:hover{
+    color: #000;
+}
+
+
+.signin-up{
+    padding-left: 14px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+
+.signinN{
+    text-decoration: none;
+    color: var(--sub-text-color);
+    font: 100 14px Inter ;
+    padding: 0 12px 0 0;
+}
+
+.signinN:hover{
+    color: #000;
+}
+
+.signup{
+    background-color: var(--main-text-color);
+    padding: 6px 12px;
+    border-radius: 7px;
+    color: #fff;
+    text-decoration: none;
+    text-align: right;
+    font: 100 14px Inter ;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+    padding: 0 20px 0 0;
+}
+
+.signup:hover{
+    background-color: #f70000;
+}
+
+@media only screen and (max-width:768px) {
+
+    .navbar{
+        box-shadow: none;
+    }
+    hr{
+        display: none;
+    }
+
+    .signin{
+        display: none;
+    }
+    .ios-app{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+        align-items: center;
+    }
+
+
+    ul {
+        width: 30%;
+        height: auto;
+        background-color: #F7F7F8;
+        position: absolute;
+        top: 75px;
+        left: 30px;
+        z-index: 2;
+        text-align: left;
+        height: auto;
+        -moz-border-radius: 10px; 
+        -webkit-border-radius: 10px; 
+        border-radius: 10px;
+        outline: none;
+    }
+
+     ul::before{
+        content: "";
+        position: absolute;
+        top: -15px;
+        border-bottom: 30px solid #F7F7F8;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-radius: 10px;
+    }
+
+    nav ul li{
+        margin: 10px 0;
+    }
+    
+    .menuList{
+        overflow: hidden;
+        transition: 0.5s;
+    }
+}

@@ -1,0 +1,210 @@
+
+
+.banner{
+    width: auto;
+    height: 60vh;
+    margin-top: 80px;
+    /* background-color: rgb(199, 199, 199); */
+}
+
+.olengines-banner{
+    /* font-family: PoiretOne; */
+    text-align: center;
+    font:600 148px PoiretOne;
+    opacity: 0.1;
+    padding-top: 25px;;
+    letter-spacing: 20px;
+}
+
+.text-banner{
+    font:800 28px PoiretOne;
+    text-align: center;
+    margin-top: -80px;
+}
+
+.img-banner{
+    width: 400px;
+    height: auto;
+    margin: -30px 0 0 800px;
+}
+
+.brands{
+    margin: 30px;
+}
+
+/* Top 10 Cars in India */
+
+.top10{
+margin: 120px 0 120px 0;
+}
+
+.Top10text{
+    color: #000;
+    text-align: center;
+    font-family: "Alata", Sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.top10inner{
+    justify-content: center;
+    margin: 20px ;
+    display: flex;
+}
+
+.Sedan, .Hatchback, .SUV{
+    padding:10px;
+}
+
+.Sedanimg, .Hatchbackimg, .SUVimg{
+    width: 300px;
+    height: 173px;
+    cursor: pointer;
+    transition: all .2s ease-in-out; 
+    font:500 16px Inter;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+.Sedanimg:hover, .Hatchbackimg:hover, .SUVimg:hover { 
+    transform: scale(0.9); 
+}
+
+.Sedantext, .Hatchbacktext, .SUVtext{
+    margin-top: 10px;
+    color: #0274BE;
+    font: 400 16px Inter;
+    text-decoration: none;
+}
+
+.Sedansubtext, .Hatchbacksubtext, .SUVsubtext{
+    margin-top: 5px;
+    color: var(--sub-text-color);
+    font: 400 12px Inter;
+}
+
+
+
+/* Body Type  */
+
+.cartype{
+    justify-content: center;
+    margin: 0 0 120px 0;
+}
+
+.cartypeheading{
+    font: 400 30px Alata;
+    font-family: "Alata", Sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.cartypesubhead{
+    font:100 18px Alata;
+    font-family: "Alata", Sans-serif;
+    text-align: center;
+    color: #1a1a1a
+}
+
+.innercartype{
+    justify-content: center;
+    padding: 30px;
+    display: flex;
+    margin: 0 120px;
+    align-items: center;
+}
+
+.sedantype, .hatchbacktype, .SUVtype, .luxurytype{
+    padding: 30px;
+    width: 250px;
+    height: 100px; 
+}
+
+.sedantype:hover, .hatchbacktype:hover, .SUVtype:hover, .luxurytype:hover{
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 6px;
+}
+
+.sedantypeimg, .hatchbacktypeimg, .SUVtypeimg, .luxurytypeimg{
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sedantypeimg{
+    width: 225px;
+}
+
+.hatchbacktypeimg{
+    width: 200px;
+}
+
+.SUVtypeimg{
+    width: 200px;
+}
+
+.luxurytypeimg{
+    width: 215px;
+}
+
+.sedantypetext, .hatchbacktypetext, .SUVtypetext, .luxurytypetext{
+    margin-top: 15px;
+    font:400 14px Inter;
+    text-align: center;
+    color: var(--sub-text-color);
+    text-decoration: none;
+}
+
+.luxurytypetext, .hatchbacktypetext{
+    margin-top: 23px;
+}
+
+.comparehome{
+    text-align: center;
+}
+
+.comparehomeheading{
+    font: 400 30px Alata;
+    font-family: "Alata", Sans-serif;
+    color: #000;
+    text-decoration: none;
+}
+
+.comparesubheading{
+    font:100 18px Alata;
+    font-family: "Alata", Sans-serif;
+    color: #1a1a1a;
+    margin-top: 10px;
+}
+
+.comparecar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.comparecar1{
+    width: 25%;
+    height: auto;
+    display: flex;
+    margin: 60px 10px;
+    cursor: pointer;
+}
+
+.comparecar2{
+    width: 25%;
+    height: auto;
+    display: flex;
+    cursor: pointer;
+    margin: 60px 10px;
+}
+
+.comparecar3{
+    width: 25%;
+    height: auto;
+    display: flex;
+    cursor: pointer;
+    margin: 60px 10px;
+}

@@ -1,0 +1,93 @@
+hr{
+    color: var(--sub-text-color);
+}
+
+.footer1{
+    padding: 4% 3%;
+    display: flex;
+}
+
+.col1, .col2, .col3, .col4{
+    width: 25%;
+    padding:0 8%;
+}
+
+.website, .products, .company, .account{
+    font: bolder 17px Inter;
+    padding: 4px 0 30px 0;
+}
+
+ul li{
+    list-style: none;
+    font: 500 14px Inter;
+    padding: 6px 0;
+}
+
+
+.latestf, .upcomingf, .trendingf, .reviewsf, .newsf, .comparef, .latestf,
+.feedf, .iosf, .androidf, .chromef, .termsf, .privacyf, .cookief, .helpf, .aboutf, .contactf,
+.signinf, .signupf, .resetf{
+    text-decoration: none;
+    color: var(--sub-text-color);
+}
+
+
+
+.footer2{
+    display: flex;
+    padding: 20px 35px;
+    background-color: #F7F7F8;
+    align-items: center;
+}
+
+.text-logof{
+    font: bolder 22px Sarabun;
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+
+.ccf{
+    padding:4px 0 0 40px;
+}
+
+.textf{
+    align-items: center;
+    color: var(--sub-text-color);
+    font: 500 13px Inter;
+
+}
+
+.priyavartf{
+    text-decoration: none;
+    color: var(--main-text-color);
+    font: 500 13px Inter;
+}
+
+.priyavartf:hover{
+    color: #f70000;
+}
+
+.socialmediaf{
+    color: var(--sub-text-color);
+    text-decoration: none;
+    flex: 1;
+    text-align: right;
+
+}
+
+.fa{
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    padding-top: 4px;
+}
+
+.fa:hover{
+    color: #000;
+}
+
+.fa-facebook, .fa-twitter, .fa-instagram, .fa-github, .fa-behance{
+    color: var(--sub-text-color);
+    padding: 0 8px;
+}
+

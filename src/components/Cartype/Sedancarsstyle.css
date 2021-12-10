@@ -1,0 +1,71 @@
+.carscontent{
+    margin: 2% 10%;
+}
+
+.hometosedan{
+    font: 500 11px Inter;
+    color: var(--sub-text-color);
+    margin-bottom: 6px;
+}
+
+.carsheading{
+    font: 900 24px Inter;
+    color: rgb(53, 53, 53);
+}
+
+.carssubheading{
+    padding-top: 10px;
+    font: 100 14px Inter;
+    color: var(--sub-text-color);
+}
+
+.firstsedancars{
+    display: flex;
+    margin: 2% 15%;
+    justify-content: space-between;
+}
+
+.cars01, .cars02{
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 17px;
+    width: 47%;
+}
+
+.img01, .img02{
+    width: 340px;
+    height: auto;
+    padding-left: 70px;
+    transition: all .2s ease-in-out;
+    z-index: 1;
+}
+
+.img01:hover, .img02:hover{
+    transform: scale(1.1)
+}
+
+.carstext{
+    margin: 0 8% 5% 8%;
+}
+
+.carname{
+    font: 500 20px Inter;
+    color: #000;
+    padding-bottom: 8px;
+    text-decoration: none;
+}
+
+.carprice{
+    font: 500 12px Inter;
+}
+
+.carpricespan{
+    font: 500 12px Inter;
+    padding-left: 10px;
+}
+
+
+.carincityspan{
+    font: 500 14px Inter;
+    color: rgb(0, 89, 255);
+    float: right;
+}

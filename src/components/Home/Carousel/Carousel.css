@@ -1,0 +1,32 @@
+.carlogo{
+    width: 205px;
+    height: 105px;
+    outline: none;
+    margin-left: 25px;
+}
+
+.brands{
+    color: #000;
+    font-family: "Alata", Sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.center{
+    padding: 50px;
+}
+
+.slick-next{
+    margin: 0 40px;
+}
+
+.slick-prev{
+    margin-left: 40px;
+}
+
+
+.slick-prev:before,
+.slick-next:before {
+  color: var(--sub-text-color);
+}

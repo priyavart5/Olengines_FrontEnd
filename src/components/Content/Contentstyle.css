@@ -1,0 +1,162 @@
+.main-screen{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.content{
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
+
+.content-inner{
+    padding-top: 0-px;
+    padding-left: 240px;
+    width: 350px;
+}
+
+.heading{
+    font: bolder 45px Inter;
+    color: #000;
+    padding-top: 10px;
+}
+
+.sub-heading{
+    font: 500 15px Inter;
+    color: var(--sub-text-color);
+    letter-spacing: 1px;
+    padding: 10px 0 50px 0;
+}
+
+.banner-img{
+    width: 50%;
+    height: auto;
+}
+
+.first-button, .second-button{
+    padding: 15px 45px;
+    background-color: var(--main-text-color);
+    color: #fff;
+    border: none;
+    border-radius: 9px;
+    text-decoration: none;
+    font: 500 15px Inter;
+    cursor: pointer;
+}
+
+.second-button{
+    margin-top: 12px;
+    padding: 15px 38px;
+    background-color: #fff;
+    border: 0.5px solid var(--sub-text-color);
+    color: #000;
+}
+
+.first-button:hover{
+    background-color: #f70000;
+}
+
+.second-button:hover{
+    border: 1px solid var(--sub-text-color);
+}
+
+.explore{
+    font: 100 26px Hi Melody;
+    text-decoration: none;
+    color: #000;
+    position: absolute;
+    padding: 120px 0 0 60px;
+}
+
+.arrow{
+    position: absolute;
+    padding: 160px 0 0 90px;
+    z-index: 1;
+}
+
+.arrow:hover , .explore:hover{
+    transform: rotate(4deg);
+}
+.banner-image{
+    width: 750;
+    height: 496px;
+    padding-top: 50px;
+}
+
+
+.boxes{
+    padding: 0 80px;
+    display: flex;
+    text-align: center;
+    margin-bottom: 10%;
+
+}
+
+.firstblock, .secondblock, .thirdblock, .forthblock, .fifthblock{
+    background: #F7F7F8;
+    margin: 0 12px;
+    padding: 29px 29px 20px 29px;
+    text-align: center;
+    border-radius: 10px;
+    --hover: #d0ffad;
+}
+
+
+.secondblock{
+    --hover: rgb(162, 223, 252);
+}
+
+.thirdblock{
+    --hover: rgb(213, 151, 255);
+}
+
+.forthblock{
+    --hover: rgb(250, 227, 152);
+}
+
+.fifthblock{
+    --hover: rgb(183, 255, 233);
+}
+.firstblock:hover, .secondblock:hover, .thirdblock:hover, .forthblock:hover, .fifthblock:hover,
+.firstblock:focus, .secondblock:focus, .thirdblock:focus, .forthblock:focus, .fifthblock:focus {
+  box-shadow: inset 0 -16em 0 0 var(--hover);
+}
+
+.h1, .h2, .h3, .h4, .h5{
+    padding: 14px 0;
+    font: 700 18px Inter;
+}
+
+.t1, .t2, .t3, .t4, .t5{
+    padding-top: 10px;
+    font: 400 14px Inter;
+    letter-spacing: 1px;
+    color: var(--sub-text-color);
+}
+
+@media only screen and (max-width: 700px){
+    .banner-image{
+        display: none;
+    }
+
+    .content-inner{
+        justify-content: center;
+        align-items: center;
+        padding-left: 40px;
+        padding-bottom: 20px;
+    }
+
+    .arrow, .explore{
+        display: none;
+    }
+
+    .boxes{
+        display: block;
+        padding: 0 60px;
+    }
+
+    .firstblock, .secondblock, .thirdblock, .forthblock, .fifthblock{
+        margin: 30px 0;
+    }
+}
