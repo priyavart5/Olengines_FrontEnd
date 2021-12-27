@@ -36,6 +36,14 @@ class Signin extends Component {
             if(user.email){
                 this.props.history.push("/home"); 
                 console.log('signin success');
+            }else if(user.email ==! this.onEmailChange ){
+                window.alert("Wrong Email Address")
+            }
+            else if(this.onPasswordChange ==! user.isValid ){
+                window.alert("Wrong Password")
+            }
+            else{
+                window.alert("Password is Incorrect")
             }
         })
     }

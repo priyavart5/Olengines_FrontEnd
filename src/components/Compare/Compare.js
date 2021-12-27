@@ -6,16 +6,18 @@ import Navigation_Signin from "../Navigation-signin/Navigation_Signin";
 
 const Compare = () =>{
 
-    const [cars, setName] = useState("");
-    const [cars1, setName1] = useState("");
-    const [car, setCars] = useState([]);
-    const [car1, setCars1] = useState([]);
+    const [cars1, setName] = useState("");
+    const [cars2, setName1] = useState("");
+    const [car1, setCars] = useState([]);
+    const [car2, setCars1] = useState([]);
 
     const onSubmitComapre =async (event)  =>{
         event.preventDefault();
         try {
-        const response = await fetch(`http://localhost:4000/compare/?cars=${cars}`);
-        const response1 = await fetch(`http://localhost:4000/compare/?cars=${cars1}`);
+        const response = await fetch(`http://localhost:4000/compare/?cars=${cars1}`);
+        const response1 = await fetch(`http://localhost:4000/compare/?cars=${cars2}`);
+        console.log(response);
+        console.log(response1);
         const parseResponse = await response.json();
         const parseResponse1 = await response1.json();
         console.log(parseResponse);
@@ -28,7 +30,7 @@ const Compare = () =>{
     }
     return(
         <>
-        <Navigation_Signin />
+        <Navigation_Signin/>
         <div className='content-page'>
             <div>
                 <NavLink exact='true' to='home' className='homepage'>Home <span className='homepagespan'>Compare</span></NavLink>
@@ -40,10 +42,10 @@ const Compare = () =>{
             <div className='comparefields'>
                 <form className='compareform' onSubmit={onSubmitComapre}>
                     <div className='selectcar01div'>
-                        <input className='selectcar01' type='text' name='search' placeholder='Search Car 01' value={cars} onChange={(event)=>setName(event.target.value)} />
+                        <input className='selectcar01' type='text' name='search' placeholder='Search Car 01' value={cars1} onChange={(event)=>setName(event.target.value)} />
                     </div>
                     <div className='selectcar02div'>
-                        <input className='selectcar02' type='text' name='search' placeholder='Search Car 02' value={cars1} onChange={(event)=>setName1(event.target.value)} />
+                        <input className='selectcar02' type='text' name='search' placeholder='Search Car 02' value={cars2} onChange={(event)=>setName1(event.target.value)} />
                     </div>
                     <button className='compare-button'>Compare</button>
                 </form>
@@ -52,6 +54,7 @@ const Compare = () =>{
             <div className='tables'>
                 <table className='onlynames'>
                             <tr className='carname'>Car Name</tr>
+                            <tr>Company</tr>
                             <tr>Price</tr>
                             <tr>Engine</tr>
                             <tr>Fuel Type</tr>
@@ -61,30 +64,32 @@ const Compare = () =>{
                 </table>
 
                 <table className='car01table'>
-                    {car.map(car1 => (
+                    {car1.map(car1 => (
                         <>
                             <tr className='carnametable'>{car1.car_name}</tr>
-                                <tr>{car1.price}</tr>
-                                <tr>{car1.engine}</tr>
-                                <tr>{car1.fuel_type}</tr>
-                                <tr>{car1.transmission}</tr>
-                                <tr>{car1.seating_capacity}</tr>
-                                <tr>{car1.vehicle_type}</tr>
+                            <tr>{car1.company_name}</tr>
+                            <tr>{car1.price}</tr>
+                            <tr>{car1.engine}</tr>
+                            <tr>{car1.fuel_type}</tr>
+                            <tr>{car1.transmission}</tr>
+                            <tr>{car1.seating_capacity}</tr>
+                            <tr>{car1.vehicle_type}</tr>
                         </>
                     ))}
                 </table>
                 
 
                 <table className='car02table'>
-                    {car1.map(car2 => (
+                    {car2.map(car2 => (
                         <>
                             <tr className='carnametable'>{car2.car_name}</tr>
-                                <tr>{car2.price}</tr>
-                                <tr>{car2.engine}</tr>
-                                <tr>{car2.fuel_type}</tr>
-                                <tr>{car2.transmission}</tr>
-                                <tr>{car2.seating_capacity}</tr>
-                                <tr>{car2.vehicle_type}</tr>
+                            <tr>{car2.company_name}</tr>
+                            <tr>{car2.price}</tr>
+                            <tr>{car2.engine}</tr>
+                            <tr>{car2.fuel_type}</tr>
+                            <tr>{car2.transmission}</tr>
+                            <tr>{car2.seating_capacity}</tr>
+                            <tr>{car2.vehicle_type}</tr>
                         </>
                     ))}
                 </table>

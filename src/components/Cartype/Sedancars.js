@@ -20,14 +20,14 @@ const Sedancars = () =>{
 
             <div className='firstsedancars'>
                 <div className='cars01'>
-                    <NavLink exact='true' to='home' ><img src={verna} alt='verna' className='img01'/></NavLink>
+                    <NavLink exact={true} to='home' ><img src={verna} alt='verna' className='img01'/></NavLink>
                     <div className='carstext'>
                         <p className='carname'>Hyundai Verna</p>
                         <p className='carprice'>₹ 9.58 Lakh <span className='carpricespan'>(Avg. Ex-Showroom price)</span><span className='carincityspan'>Show price in my city</span></p>
                     </div>
                 </div>
                 <div className='cars02'>
-                <NavLink exact='true' to='home' ><img src={verna} alt='verna' className='img02'/></NavLink>
+                <NavLink exact={true} to='home' ><img src={verna} alt='verna' className='img02'/></NavLink>
                 <div className='carstext'>
                     <p className='carname'>Honda City</p>
                     <p className='carprice'>₹ 9.58 Lakh <span className='carpricespan'>(Avg. Ex-Showroom price)</span><span className='carincityspan'>Show price in my city</span></p>
@@ -37,14 +37,14 @@ const Sedancars = () =>{
 
             <div className='firstsedancars'>
                 <div className='cars01'>
-                    <NavLink exact='true' to='home' ><img src={verna} alt='verna' className='img01'/></NavLink>
+                    <NavLink exact={true} to='home' ><img src={verna} alt='verna' className='img01'/></NavLink>
                     <div className='carstext'>
                         <p className='carname'>Hyundai Verna</p>
                         <p className='carprice'>₹ 9.58 Lakh <span className='carpricespan'>(Avg. Ex-Showroom price)</span><span className='carincityspan'>Show price in my city</span></p>
                     </div>
                 </div>
                 <div className='cars02'>
-                <NavLink exact='true' to='home' ><img src={verna} alt='verna' className='img02'/></NavLink>
+                <NavLink exact={true} to='home' ><img src={verna} alt='verna' className='img02'/></NavLink>
                 <div className='carstext'>
                     <p className='carname'>Hyundai Verna</p>
                     <p className='carprice'>₹ 9.58 Lakh <span className='carpricespan'>(Avg. Ex-Showroom price)</span><span className='carincityspan'>Show price in my city</span></p>
@@ -54,14 +54,14 @@ const Sedancars = () =>{
 
             <div className='firstsedancars'>
                 <div className='cars01'>
-                    <NavLink exact='true' to='home' ><img src={verna} alt='verna' className='img01'/></NavLink>
+                    <NavLink exact={true} to='home' ><img src={verna} alt='verna' className='img01'/></NavLink>
                     <div className='carstext'>
                         <p className='carname'>Hyundai Verna</p>
                         <p className='carprice'>₹ 9.58 Lakh <span className='carpricespan'>(Avg. Ex-Showroom price)</span><span className='carincityspan'>Show price in my city</span></p>
                     </div>
                 </div>
                 <div className='cars02'>
-                <NavLink exact='true' to='home' ><img src={verna} alt='verna' className='img02'/></NavLink>
+                <NavLink exact={true} to='home' ><img src={verna} alt='verna' className='img02'/></NavLink>
                 <div className='carstext'>
                     <p className='carname'>Hyundai Verna</p>
                     <p className='carprice'>₹ 9.58 Lakh <span className='carpricespan'>(Avg. Ex-Showroom price)</span><span className='carincityspan'>Show price in my city</span></p>
@@ -71,14 +71,14 @@ const Sedancars = () =>{
 
             <div className='firstsedancars'>
                 <div className='cars01'>
-                    <NavLink exact='true' to='home' ><img src={verna} alt='verna' className='img01'/></NavLink>
+                    <NavLink exact={true} to='home' ><img src={verna} alt='verna' className='img01'/></NavLink>
                     <div className='carstext'>
                         <p className='carname'>Hyundai Verna</p>
                         <p className='carprice'>₹ 9.58 Lakh <span className='carpricespan'>(Avg. Ex-Showroom price)</span><span className='carincityspan'>Show price in my city</span></p>
                     </div>
                 </div>
                 <div className='cars02'>
-                <NavLink exact='true' to='home' ><img src={verna} alt='verna' className='img02'/></NavLink>
+                <NavLink exact={true} to='home' ><img src={verna} alt='verna' className='img02'/></NavLink>
                 <div className='carstext'>
                     <p className='carname'>Hyundai Verna</p>
                     <p className='carprice'>₹ 9.58 Lakh <span className='carpricespan'>(Avg. Ex-Showroom price)</span><span className='carincityspan'>Show price in my city</span></p>
@@ -88,14 +88,14 @@ const Sedancars = () =>{
 
             <div className='firstsedancars'>
                 <div className='cars01'>
-                    <NavLink exact='true' to='home' ><img src={verna} alt='verna' className='img01'/></NavLink>
+                    <NavLink exact={true} to='home' ><img src={verna} alt='verna' className='img01'/></NavLink>
                     <div className='carstext'>
                         <p className='carname'>Hyundai Verna</p>
                         <p className='carprice'>₹ 9.58 Lakh <span className='carpricespan'>(Avg. Ex-Showroom price)</span><span className='carincityspan'>Show price in my city</span></p>
                     </div>
                 </div>
                 <div className='cars02'>
-                <NavLink exact='true' to='home' ><img src={verna} alt='verna' className='img02'/></NavLink>
+                <NavLink exact={true}to='home' ><img src={verna} alt='verna' className='img02'/></NavLink>
                 <div className='carstext'>
                     <p className='carname'>Hyundai Verna</p>
                     <p className='carprice'>₹ 9.58 Lakh <span className='carpricespan'>(Avg. Ex-Showroom price)</span><span className='carincityspan'>Show price in my city</span></p>

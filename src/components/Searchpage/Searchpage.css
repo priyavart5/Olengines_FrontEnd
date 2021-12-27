@@ -36,10 +36,11 @@
     margin-left: 620px;
 }
 
-.tablenamecarname{
+.search_results{
     color: var(--main-text-colors);
     font: 100 30px Inter;
     margin-bottom: 10px;
+    
 }
 
 tr{

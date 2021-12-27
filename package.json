@@ -1,4 +1,5 @@
 {
+  "homepage": "http://priyavart10.github.io/Olengines",
   "name": "olengines",
   "version": "0.1.0",
   "private": true,
@@ -8,6 +9,7 @@
     "@testing-library/user-event": "^12.8.3",
     "image-compare-viewer": "^1.5.0",
     "mongoose": "^6.0.13",
+    "node": "^17.3.0",
     "react": "^17.0.2",
     "react-compare-image": "^3.1.0",
     "react-dom": "^17.0.2",
@@ -20,10 +22,12 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -43,5 +47,8 @@
       "last 1 safari version"
     ]
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
 }

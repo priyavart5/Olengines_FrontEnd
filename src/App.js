@@ -30,18 +30,18 @@ class App extends Component {
     <BrowserRouter>
     <div>
     <Switch>
-      <Route exact='true' path="/" component={First_Screen} />
-      <Route exact='true' path='/home' component={Home} />
-      <Route exact='true' path="/signin"  component={Signin} />
-      <Route exact='true' path='/signup' component={Signup} />
-      <Route exact='true' path='/latestcars' component={Latestcars} />
-      <Route exact='true' path='/upcomingcars' component={Upcomingcars} />
-      <Route exact='true' path='/trendingcars' component={Trendingcars} />
-      <Route exact='true' path='/sedan-cars' component={Sedancars} />
-      <Route exact='true' path='/hacthback-cars' component={Hatchback} />
-      <Route exact='true' path='/SUVs-cars' component={SUVs} />
-      <Route exact='true' path='/compare-cars' component={Compare} />
-      <Route exact='true' path='/search' component={Searchpage} />
+      <Route exact={true} path="/" component={First_Screen} />
+      <Route exact={true} path='/home' component={Home} />
+      <Route exact={true} path="/signin"  component={Signin} />
+      <Route exact={true} path='/signup' component={Signup} />
+      <Route exact={true} path='/latestcars' component={Latestcars} />
+      <Route exact={true} path='/upcomingcars' component={Upcomingcars} />
+      <Route exact={true} path='/trendingcars' component={Trendingcars} />
+      <Route exact={true} path='/sedan-cars' component={Sedancars} />
+      <Route exact={true} path='/hacthback-cars' component={Hatchback} />
+      <Route exact={true} path='/SUVs-cars' component={SUVs} />
+      <Route exact={true} path='/compare-cars' component={Compare} />
+      <Route exact={true} path='/search' component={Searchpage} />
     </Switch>
     </div>
     </BrowserRouter>

@@ -29,7 +29,7 @@ const Searchpage = () => {
             <table className="tablesearchpage">
                 <thead>
                     <tr>
-                    <th className='tablenamecarname'>Search Result</th>
+                    <th className='search_results'>Search Result</th>
                     </tr>
                 </thead>
                 <tbody>
